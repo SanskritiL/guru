@@ -1,0 +1,27 @@
+$primary-color: #FFB88C;
+$secondary-color: #DE6262;
+
+.body{
+
+  background: $secondary-color; /* fallback for old browsers */
+  background: -webkit-lin ear-gradient(to right, $secondary-color, $primary-color); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, $secondary-color, $primary-color);
+  height: 100vh;
+  overflow: hidden;
+}
+.image-logo{
+  padding-top:20%;
+  margin-left:-15%;
+}
+.btn-login{
+  margin-top:5%;
+  padding:10px 100px 10px 10px;
+  border-radius: 25px;
+ }
+ .btn-login:hover, .btn-login:focus, .btn-login:active, .btn-login.active, .open > .dropdown-toggle.btn-login {
+  background: rgb(204, 169, 169);
+  color:black;
+}
+.login-btn-icon{
+  padding:0 20px 0 0;
+}

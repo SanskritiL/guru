@@ -1,0 +1,31 @@
+.body {
+  background: #DE6262;
+  /* fallback for old browsers */
+  background: -webkit-lin ear-gradient(to right, #DE6262, #FFB88C);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#DE6262), to(#FFB88C));
+  background: linear-gradient(to right, #DE6262, #FFB88C);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.image-logo {
+  padding-top: 20%;
+  margin-left: -15%;
+}
+
+.btn-login {
+  margin-top: 5%;
+  padding: 10px 100px 10px 10px;
+  border-radius: 25px;
+}
+
+.btn-login:hover, .btn-login:focus, .btn-login:active, .btn-login.active, .open > .dropdown-toggle.btn-login {
+  background: #cca9a9;
+  color: black;
+}
+
+.login-btn-icon {
+  padding: 0 20px 0 0;
+}
+/*# sourceMappingURL=Login.css.map */
